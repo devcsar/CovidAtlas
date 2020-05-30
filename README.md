@@ -1,7 +1,7 @@
 # COVID Atlas
-## NASA Spaces Apps Challenge
+## NASA Spaces Apps Challenge_COVID19
 ### Developers: Cesar y Leo Camacho. 
-###### ||NASA Products: GIBS API || Category: Health & Education ||
+###### ||NASA Products: GIBS API || Challenge: Integrated Assessment ||
 ###### ||Countries 🌎 🇲🇽 🇧🇷 🇨🇷||
 
 #### A risk measurement tool for populations and governments to take decision on their daily life’s during pandemic events, by combining satellite imagery , statistics and infection rate tracking in near real time.  
