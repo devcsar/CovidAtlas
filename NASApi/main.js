@@ -17,8 +17,8 @@ window.onload = function () {
       maxResolution: 0.5625,
       projection: ol.proj.get('EPSG:4326'),
       extent: [-180, -90, 180, 90],
-      center: [0, 0],
-      zoom: 2,
+      center: [-80.87, 24.21],
+      zoom: 6,
       maxZoom: 8
     }),
     target: 'map',
