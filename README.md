@@ -14,5 +14,5 @@
 ```
  function createLayer() {
     var source = new ol.source.WMTS({
-      url: 'https://gibs-{a-c}.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?TIME=' + dayParameter(), ```
+      url: 'https://gibs-{a-c}.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?SERVICE=' 
 
