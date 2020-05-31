@@ -11,8 +11,8 @@
 #### How it works:
 
 -We use the NASA's Global Imagery Browse Services (GIBS) APIs for the satllite imagery:
-
-<<< function createLayer() {
+```
+ function createLayer() {
     var source = new ol.source.WMTS({
-      url: 'https://gibs-{a-c}.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?TIME=' + dayParameter(),
+      url: 'https://gibs-{a-c}.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?TIME=' + dayParameter(), ```
 
