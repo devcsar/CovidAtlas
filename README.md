@@ -10,7 +10,7 @@
 
 #### How it works:
 
--We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Provider for the satellite imagery and visualize the Data Layers using  ***Web Map Title Service [WMTS]*** such as:
+-We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Provider for the satellite imagery and visualize the Data Layers using  ***Web Map Title Service (WMTS)*** such as:
 
 - Layer: 
 - Matrix Set:
@@ -18,6 +18,8 @@
 - origin:
 - resolution:
 - Tile:
+
+> Create Layer function:
 
 ```
  function createLayer() {
