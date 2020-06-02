@@ -15,8 +15,8 @@
 - URL: https://gibs.earthdata.nasa.gov/wmts/
 - Layer: (e.g. "MODIS / Terra")
 - Matrix Set:'EPSG_(n)m'
-- origin:[Lat, Long]
-- resolution:[0...2]
+- Origin:[Lat, Long]
+- Resolution:[0...2]
 - Tile: Open Layers
 
 > Create Layer function:
