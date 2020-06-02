@@ -118,7 +118,7 @@ http://api.worldbank.org/en/countries/CR/indicators/1.0.PSev.Poor4uds?date=1961:
 Meassure near real time Keyword trends in search engines
 
 ```
-googleTrends.dailyTrends({
+KeywordTrends.dailyTrends({
   trendDate: new Date('2019-01-10'),
   geo: 'US',
 }, function(err, results) {
@@ -129,7 +129,6 @@ googleTrends.dailyTrends({
   }
 });
 ```
-> Step 5: Teledection & Computational Epidemiology modeling
+> Step 5: Aggregate Computational Epidemiology modeling
 
-
-
+Using online social data to track pandemics and aggregate this data to the model for the COVID19 Risk Level Scoring to understand the Pandemic to correlate it's Economical impact in the Population. 
