@@ -25,21 +25,13 @@
  function createLayer() {
     var source = new ol.source.WMTS({
       url: 'https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?SERVICE='
-      layer: 'MODIS_Terra_CorrectedReflectance_TrueColor',
+      layer: 'MODIS_Terra_Property1_Property(n)',
       format: 'image/jpeg',
-      matrixSet: 'EPSG4326_250m',
+      matrixSet: 'EPSG_(N)m',
       tileGrid: new ol.tilegrid.WMTS({
-        origin: [-180, 90],
+        origin: [Lat, Long],
         resolutions: [
-          0.5625,
-          0.28125,
-          0.140625,
-          0.0703125,
-          0.03515625,
-          0.017578125,
-          0.0087890625,
-          0.00439453125,
-          0.002197265625
+          0...(n)
         ],
         matrixIds: [0, 1, 2, 3, 4, 5, 6, 7, 8],
         tileSize: 512
