@@ -107,7 +107,7 @@ http://api.worldbank.org/v2/country/cr/indicator/SP.POP.TOTL?date=2010:2020
 ```
 http://api.worldbank.org/en/countries/CR/indicators/1.0.PSev.Poor4uds?date=1961:2011&per_page=2000
 ```
-***World Bank API supports the following four output formats: XML, JSON, JSONp, JSON-stat***
+***World Bank API supports the following four output formats: XML, JSON, JSONP, JSON-stat***
 
 > Step 4: Social Media API
 
