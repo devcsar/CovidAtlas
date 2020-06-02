@@ -80,6 +80,10 @@ We use the ***COVID19 API*** from Data Providers such as World Health Organizati
     </script>
 ```
 
+### What's next?
+
+Correlate socio economic variables such as Keywords Trends, GDP per Capita, Country Debt, Public Transport, and other predictors for our risk and prevention model based on Teledection and Computational Epidemiology modeling.    
+
 > Step 3: World Bank Data
 
 > Step 4: Social Media API
