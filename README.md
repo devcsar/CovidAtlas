@@ -1,5 +1,5 @@
 # COVID Atlas 🖥️ 😷 http://covidatlas.co/
-## NASA Spaces Apps Challenge_COVID19
+## 2020 NASA Space Apps Challenge_COVID19
 ### Developers: Cesar Méndez y Leo Camacho 
 ###### ||Data Sources: [NASA GIBS API](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers), [COVID19 API](https://covid19api.com/), [World Bank APIs](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation) ||
 ###### ||Challenge: Integrated Assessment ||
