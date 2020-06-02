@@ -102,7 +102,7 @@ http://api.worldbank.org/V2/incomeLevel/LIC/country
 http://api.worldbank.org/v2/country/cr/indicator/SP.POP.TOTL?date=2010:2020
 ```
 
-- Poverty
+- Poverty Severity
 
 ```
 http://api.worldbank.org/en/countries/CR/indicators/1.0.PSev.Poor4uds?date=1961:2011&per_page=2000
