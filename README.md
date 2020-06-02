@@ -87,7 +87,7 @@ Correlate socio economic variables such as Keywords Trends, GDP per Capita, Coun
 > Step 3: World Bank Data APIs
 Aggregate economic data indicators to the model such as GDP, Income Level, Total Population and Poverty Severity, to have a better understanding of the economic impact per Country:   
 
-Complete list of[All World Bank Indicators](https://data.worldbank.org/indicator?tab=all)
+Complete list of [All World Bank Indicators](https://data.worldbank.org/indicator?tab=all)
 
 ```
  http://api.worldbank.org/en/countries/country/indicators/
