@@ -46,7 +46,7 @@ We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Pro
 
 > Step 2: Get COVID19 cases
 
-We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the ***Total Test results*** values by Country/Region such as:       
+We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the epidemiologic data of ***Total Test results*** values by Country/Region such as:       
 - Positive cases: ${covid19['positive']}
 - Negative cases: ${covid19['negative']}
 - Hospitalized: ${covid19['hospitalized']}
@@ -89,6 +89,20 @@ Correlate socio economic variables such as Keywords Trends, GDP per Capita, Coun
 ```
  http://api.worldbank.org/en/countries/country/indicators/
 ```
+
+- Country Income
+
+```
+http://api.worldbank.org/V2/incomeLevel/LIC/country
+```
+
+- Total Population
+
+```
+http://api.worldbank.org/v2/country/cr/indicator/SP.POP.TOTL?date=2010:2020
+```
+
+World Bank API supports the following four output formats: XML, JSON, JSONp, JSON-stat
 
 > Step 4: Social Media API
 
