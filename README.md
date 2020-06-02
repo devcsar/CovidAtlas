@@ -84,13 +84,14 @@ We use the ***COVID19 API*** from Data Providers such as World Health Organizati
 
 Correlate socio economic variables such as Keywords Trends, GDP per Capita, Country Debt, Public Transport, and other predictors for adjusting our risk and prevention model scoring.    
 
-> Step 3: World Bank Data
+> Step 3: World Bank Data APIs
+Aggregate economic data indicators to the model such as GDP, Income Level, Total Population and Poverty Severity, to have a better understanding of the economic impact per Country:   
 
 ```
  http://api.worldbank.org/en/countries/country/indicators/
 ```
 
-- Country Income
+- Income Level 
 
 ```
 http://api.worldbank.org/V2/incomeLevel/LIC/country
