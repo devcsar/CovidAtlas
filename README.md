@@ -11,6 +11,7 @@
 #### How it works:
 
 > Step 1: Earth Exploration
+
 We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Provider for the satellite imagery and visualize the Data Layers using  ***Web Map Title Service (WMTS)*** such as:
 
 - URL: https://gibs.earthdata.nasa.gov/wmts/
@@ -38,10 +39,43 @@ We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Pro
         tileSize: 512
       })
     });
+```
 
 
+> Step 2: COVID19 API
 
-> Step 2
+We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the Test results of ***positive***, and ***negative*** cases, hospitalized, death and recovery by country/city:
 
-> Step 3
+- URL: https://gibs.earthdata.nasa.gov/wmts/
+
+```<script>
+      const getCovidStats = async() => {
+        try {
+          const response = await fetch('https://covidtracking.com/api/country');
+          const usa = await response.json();
+
+          covid19 = country[0];
+        }
+        catch (err) {
+          console.log(`Error: ${err}`);
+        }
+        finally {
+          markup = `
+            Tests:          ${covid19['totalTestResults']}
+            Positive:       ${covid19['positive']}
+            Negative:       ${covid19['negative']}
+            Hospitalized:   ${covid19['hospitalized']}
+            Deaths:         ${covid19['death']}`
+          document.getElementById('main').innerText = markup;
+        }
+      };
+      getCovidStats();
+    </script>
+```
+
+> Step 3: World Bank Data
+
+> Step 4: Social Media API
+
+
 
