@@ -82,7 +82,7 @@ We use the ***COVID19 API*** from Data Providers such as World Health Organizati
 
 ### What's next?
 
-Correlate socio economic variables such as Keywords Trends, GDP per Capita, Country Debt, Public Transport, and other predictors for our risk and prevention model based on Teledection and Computational Epidemiology modeling.    
+Correlate socio economic variables such as Keywords Trends, GDP per Capita, Country Debt, Public Transport, and other predictors for our risk and prevention model.    
 
 > Step 3: World Bank Data
 
@@ -120,7 +120,7 @@ googleTrends.dailyTrends({
   }
 });
 ```
-
+> Step 5: Teledection & Computational Epidemiology modeling
 
 
 
