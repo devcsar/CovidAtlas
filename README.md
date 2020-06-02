@@ -42,7 +42,7 @@ We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Pro
 ```
 
 
-> Step 2: COVID19 API
+> Step 2: Get COVID19 cases
 
 We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the Test results of ***positive***, and ***negative*** cases, hospitalized, death and recovery by country/city:
 
