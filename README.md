@@ -44,9 +44,14 @@ We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Pro
 
 > Step 2: Get COVID19 cases
 
-We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the Test results of ***positive***, and ***negative*** cases, hospitalized, death and recovery by country/city:
+We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the ***Total Test results*** values by Country/Region such as:       
+- Positive cases: ${covid19['positive']}
+- Negative cases: ${covid19['negative']}
+- Hospitalized: ${covid19['hospitalized']}
+- Death: ${covid19['death']}`
+- Recovered: ${covid19['recovered']}`
 
-- URL: https://gibs.earthdata.nasa.gov/wmts/
+- URL: curl --location --request GET 'https://www.who.int/rss-feeds/news-english.xml'
 
 ```<script>
       const getCovidStats = async() => {
