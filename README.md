@@ -1,11 +1,16 @@
-# COVID Atlas 🖥️ 😷 http://covidatlas.co/
+# COVID Atlas Documentation 🖥️ 😷 http://covidatlas.co/
 ## 2020 NASA Space Apps Challenge_COVID19
 ### Developers: Cesar Méndez y Leo Camacho 
+###### Mentors & Moderators during challenge: Genidma, Delcastillo, katel_ambassador & c_jakob 
 ###### ||Data Sources: [NASA GIBS API](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers), [COVID19 API](https://covid19api.com/), [World Bank APIs](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation) ||
 ###### ||Challenge: Integrated Assessment ||
 ###### ||Region: Latin America & Caribbean 🌎 ||
 
 [Submission to NASA Spaces Apps COVID19 Challenge](https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/covid-atlas/project)
+
+- [COVID19 Spread Monitor Demo](https://covidatlas.co/nasa.html)
+
+- [Dashboard Demo](https://covidatlas.co/nasa.html)
 
 #### COVID Atlas is a risk measurement platform for Citizens and Governments to have a better understanding and decision making on their daily life’s during pandemic events, by combining satellite imagery, economic data and health statistics in near real time.  
 
@@ -46,7 +51,7 @@ We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Pro
 
 > Phase 2: Get COVID19 cases
 
-We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the epidemiologic data of ***Total Test results*** values by Country/Region such as:       
+We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the epidemiologic data of ***Total Test results*** values by Country/Region & Date such as:       
 - Positive cases: ${covid19['positive']}
 - Negative cases: ${covid19['negative']}
 - Hospitalized: ${covid19['hospitalized']}
@@ -58,13 +63,10 @@ We use the ***COVID19 API*** from Data Providers such as World Health Organizati
 ```<script>
       const getCovidStats = async() => {
         try {
-          const response = await fetch('https://covidtracking.com/api/country');
+          const response = await fetch('https://www.who.int/rss-feeds/news-english.xml');
           const usa = await response.json();
 
           covid19 = country[0];
-        }
-        catch (err) {
-          console.log(`Error: ${err}`);
         }
         finally {
           markup = `
@@ -78,11 +80,7 @@ We use the ***COVID19 API*** from Data Providers such as World Health Organizati
       };
       getCovidStats();
     </script>
-```
-
-### What's next?
-
-Correlate socio economic variables such as Keywords Trends, GDP per Capita, Country Debt, Public Transport, and other predictors for adjusting our risk and prevention model scoring.    
+```    
 
 > Phase 3: World Bank Data APIs
 
@@ -113,9 +111,12 @@ http://api.worldbank.org/en/countries/CR/indicators/1.0.PSev.Poor4uds?date=1961:
 ```
 ***World Bank API supports the following four output formats: XML, JSON, JSONP, JSON-stat***
 
-> Phase 4: Social Media API
 
-Meassure near real time Keyword trends in search engines
+#### What's next?
+
+> Phase 4: Social Media API
+By Meassuring near real time Keyword trends in search engines we can Correlate the socio economic variables such as: (i) Total Population, (ii)GDP, Country Debt, (iv) Foreign Investment, (v) Public Transport Statistics and (n) other predictors as (vi) Education for adjusting our COVID19 Spread risk and prevention model scoring.
+
 
 ```
 KeywordTrends.dailyTrends({
@@ -129,6 +130,5 @@ KeywordTrends.dailyTrends({
   }
 });
 ```
-> Step 5: Aggregate Computational Epidemiology modeling
-
-Using online social data to track pandemics and aggregate this data to the model for the COVID19 Risk Level Scoring to understand the Pandemic to correlate it's Economical impact in the Population. 
+> Step 5: Aggregate Computational Epidemiology modeling 
+Using online social data to track pandemics and model aggregate data to the COVID19 Risk Level Scoring to understand the Pandemic, it's propagation and correlate better with it's Economical impact in the Population. 
