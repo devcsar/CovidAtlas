@@ -86,6 +86,10 @@ Correlate socio economic variables such as Keywords Trends, GDP per Capita, Coun
 
 > Step 3: World Bank Data
 
+```
+ http://api.worldbank.org/en/countries/country/indicators/
+```
+
 > Step 4: Social Media API
 
 
