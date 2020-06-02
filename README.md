@@ -105,6 +105,21 @@ http://api.worldbank.org/v2/country/cr/indicator/SP.POP.TOTL?date=2010:2020
 World Bank API supports the following four output formats: XML, JSON, JSONp, JSON-stat
 
 > Step 4: Social Media API
+Measure near real time Key word trends in search engines
+
+```
+googleTrends.dailyTrends({
+  trendDate: new Date('2019-01-10'),
+  geo: 'US',
+}, function(err, results) {
+  if (err) {
+    console.log(err);
+  }else{
+    console.log(results);
+  }
+});
+```
+
 
 
 
