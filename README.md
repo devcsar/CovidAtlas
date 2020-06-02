@@ -10,7 +10,7 @@
 
 #### How it works:
 
--We use the **NASA's Global Imagery Browse Services (GIBS) APIs** for the satellite imagery and visualize the Data Layers from >Web Map Title Service (WMTS) such as:
+-We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** for the satellite imagery and visualize the Data Layers from >Web Map Title Service (WMTS) such as:
 
 -Layer
 -Matrix Set
