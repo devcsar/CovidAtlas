@@ -7,7 +7,7 @@
 
 [Submission to NASA Spaces Apps COVID19 Challenge](https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/covid-atlas/project)
 
-#### A risk measurement tool for populations and governments to take decision on their daily life’s during pandemic events, by combining satellite imagery, economic data and health statistics in near real time.  
+#### A risk measurement tool for populations and governments to have a better understanding and decision making on their daily life’s during pandemic events, by combining satellite imagery, economic data and health statistics in near real time.  
 
 
 #### How it works:
