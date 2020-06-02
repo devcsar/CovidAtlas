@@ -12,7 +12,7 @@
 
 #### How it works:
 
-> Step 1: Earth Exploration
+> Phase 1: Earth Exploration
 
 We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Provider for the satellite imagery and visualize the Data Layers using  ***Web Map Title Service (WMTS)*** such as:
 
@@ -44,7 +44,7 @@ We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Pro
 ```
 
 
-> Step 2: Get COVID19 cases
+> Phase 2: Get COVID19 cases
 
 We use the ***COVID19 API*** from Data Providers such as World Health Organization to get the epidemiologic data of ***Total Test results*** values by Country/Region such as:       
 - Positive cases: ${covid19['positive']}
@@ -84,7 +84,8 @@ We use the ***COVID19 API*** from Data Providers such as World Health Organizati
 
 Correlate socio economic variables such as Keywords Trends, GDP per Capita, Country Debt, Public Transport, and other predictors for adjusting our risk and prevention model scoring.    
 
-> Step 3: World Bank Data APIs
+> Phase 3: World Bank Data APIs
+
 Aggregate economic data indicators to the model such as GDP, Income Level, Total Population and Poverty Severity, to have a better understanding of the economic impact per Country:   
 
 Complete list of [All World Bank Indicators](https://data.worldbank.org/indicator?tab=all)
@@ -112,7 +113,7 @@ http://api.worldbank.org/en/countries/CR/indicators/1.0.PSev.Poor4uds?date=1961:
 ```
 ***World Bank API supports the following four output formats: XML, JSON, JSONP, JSON-stat***
 
-> Step 4: Social Media API
+> Phase 4: Social Media API
 
 Meassure near real time Keyword trends in search engines
 
