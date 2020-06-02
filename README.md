@@ -10,7 +10,8 @@
 
 #### How it works:
 
--We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Provider for the satellite imagery and visualize the Data Layers using  ***Web Map Title Service (WMTS)*** such as:
+> Step 1: Earth Exploration
+We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** as a Data Provider for the satellite imagery and visualize the Data Layers using  ***Web Map Title Service (WMTS)*** such as:
 
 - URL: https://gibs.earthdata.nasa.gov/wmts/
 - Layer: (e.g. "MODIS / Terra")
@@ -40,5 +41,7 @@
 
 
 
+> Step 2
 
+> Step 3
 
