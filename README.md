@@ -1,9 +1,11 @@
 # COVID Atlas 🖥️ 😷 http://covidatlas.co/
-## [NASA Spaces Apps Challenge_COVID19] (https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/covid-atlas/project)
+## NASA Spaces Apps Challenge_COVID19
 ### Developers: Cesar Méndez y Leo Camacho 
 ###### ||Data Sources: [NASA GIBS API](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers), [COVID19 API](https://covid19api.com/), [World Bank APIs](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation) ||
 ###### ||Challenge: Integrated Assessment ||
 ###### ||Region: Latin America & Caribbean 🌎 ||
+
+[Submission to NASA Spaces Apps COVID19 Challenge] (https://covid19.spaceappschallenge.org/challenges/covid-challenges/integrated-assessment/teams/covid-atlas/project)
 
 #### A risk measurement tool for populations and governments to take decision on their daily life’s during pandemic events, by combining satellite imagery, economic data and health statistics in near real time.  
 
