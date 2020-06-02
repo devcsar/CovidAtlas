@@ -13,10 +13,15 @@
 -We use the ***NASA's Global Imagery Browse Services (GIBS) APIs*** for the satellite imagery and visualize the Data Layers from >Web Map Title Service (WMTS) such as:
 
 -Layer
+
 -Matrix Set
+
 _titleGrid
+
 -origin
+
 -resolution
+
 -Tile
 
 
