@@ -106,7 +106,7 @@ World Bank API supports the following four output formats: XML, JSON, JSONp, JSO
 
 > Step 4: Social Media API
 
-Meassure near real time Key word trends in search engines
+Meassure near real time Keyword trends in search engines
 
 ```
 googleTrends.dailyTrends({
